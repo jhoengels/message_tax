@@ -1,0 +1,28 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* message_tax
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-04 16:37+0000\n"
+"PO-Revision-Date: 2015-03-04 16:37+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: message_tax
+#: model:ir.model,name:message_tax.model_account_tax
+msgid "Tax"
+msgstr ""
+
+#. module: message_tax
+#: view:account.tax:message_tax.account_tax_message_view
+#: field:account.tax,message_tax:0
+msgid "Tax Message"
+msgstr ""
+

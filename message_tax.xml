@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		 <!-- vistas-->
+		<record model="ir.ui.view" id="account_tax_message_view">
+			<field name="name">account.tax.message</field>
+			<field name="model">account.tax</field>
+			<field name="inherit_id" ref="account.view_tax_form"/>
+			<field name="arch" type="xml">
+				<notebook position="inside">
+					<page string="Tax Message">
+						<group>
+							<field name="message_tax"/>
+						</group>
+					</page>
+				</notebook>
+			</field>
+		</record>
+		 
+	</data>
+</openerp>
